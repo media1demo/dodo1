@@ -1,0 +1,19 @@
+{
+    "name": "dodo-payments-app",
+    "version": "1.0.0",
+    "type": "module",
+    "main": "server.js",
+    "scripts": {
+      "start": "node server.js",
+      "dev": "nodemon server.js",
+      "deploy": "npx wrangler deploy"
+    },
+    "dependencies": {
+      "@dodopayments/express": "^0.2.0",
+      "express": "^4.21.2"
+    },
+    "devDependencies": {
+      "nodemon": "^3.0.1",
+      "wrangler": "^3.0.0"
+    }
+  }
